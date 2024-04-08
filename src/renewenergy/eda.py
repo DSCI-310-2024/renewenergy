@@ -1,3 +1,5 @@
+from matplotlib import pyplot as plt
+
 def create_scatter_plots(data, x_columns, y_column, nrows, ncols, figsize=(32, 17)):
     """
     Create scatter plots for given columns against a common y-column.
