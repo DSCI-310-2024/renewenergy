@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.renewenergy.impute_split import impute_split
+from renewenergy.impute_split import impute_split
 
 
 def clean_data(dataread,dataout,datafile1, datafile2, seed):

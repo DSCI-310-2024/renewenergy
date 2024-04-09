@@ -9,8 +9,21 @@ $ pip install renewenergy
 ```
 
 ## Usage
+```
 
-- TODO
+from renewenergy.clean_data import clean_data
+from renewenergy.eda import create_scatter_plots
+from renewenergy.functionread import reading_datain
+from renewenergy.impute_split import impute_split
+from renewenergy.linear_regression import split_xy_columns, plot_rmse
+
+
+url= "https://github.com/DSCI-310-2024/renewenergy/raw/makingdocumentation/tests/docs_data.zip"
+
+trial1= reading_datain(url, "testing_data.csv", "data", "imported.csv")
+
+cleaned= clean_data("data/imported.csv", "data", "energy_test.csv", "energy_train.csv",12)
+```
 
 ## Contributing
 
