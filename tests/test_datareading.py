@@ -3,7 +3,7 @@ import sys
 import pathlib
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.renewenergy.functionread import reading_datain
+from renewenergy.reading_data import reading_data
 import pytest
 
 
@@ -19,29 +19,29 @@ no_zip_url= "https://github.com/DSCI-310-2024/DSCI310-Group14/blob/testing1/test
 
 def test_path_exists():
     # url= 'https://databank.worldbank.org/data/download/WDI_CSV.zip'
-    trial1=reading_datain(zip_with_files,"targ.csv", "data/raw","downloaded.csv")
+    trial1=reading_data(zip_with_files,"targ.csv", "data/raw","downloaded.csv")
     path = pathlib.Path("data/raw/downloaded.csv")
     assert os.path.exists(path)
 
 def test_url_not_exist():
     # url= 'https://github.com/ttimbers/breast_cancer_predictor_py/blob/main/src/read_zip'
     with pytest.raises(ValueError, match='The inputed URL does not exist.'):
-        reading_datain(invalid_url,"WDICSV.csv", "data/raw","downloaded.csv")
+        reading_data(invalid_url,"WDICSV.csv", "data/raw","downloaded.csv")
 
 def test_nozip():
     # url= 'https://databank.worldbank.org'
     with pytest.raises(ValueError, match='The inputed URL is not a ZIP file, please input a ZIP file'):
-        reading_datain(no_zip_url,"WDICSV.csv", "data/raw","downloaded.csv")
+        reading_data(no_zip_url,"WDICSV.csv", "data/raw","downloaded.csv")
 
 def test_specified_file_does_not_exist():
     # url="https://databank.worldbank.org/data/download/WDI_CSV.zip"
     with pytest.raises(ValueError, match="The specified file is not present within the inputed ZIP file"):
-        reading_datain(zip_with_files, "fakename.csv", "data/raw","downloaded.csv")
+        reading_data(zip_with_files, "fakename.csv", "data/raw","downloaded.csv")
 
 def test_filename_exists():
     # url="https://databank.worldbank.org/data/download/WDI_CSV.zip"
     with pytest.raises(ValueError, match="The filename already exists."):
-        reading_datain(zip_with_files,"targ.csv", "data/raw","downloaded.csv")
+        reading_data(zip_with_files,"targ.csv", "data/raw","downloaded.csv")
 
 def test_clean_up():
     os.remove("data/raw/downloaded.csv")
