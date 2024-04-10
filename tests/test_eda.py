@@ -6,7 +6,7 @@ import numpy as np
 from click.testing import CliRunner
 import matplotlib.pyplot as plt
 # from src.renewenergy.eda import main
-from src.renewenergy.eda import create_scatter_plots
+from src.renewenergy.create_scatter_plots import create_scatter_plots
 
 #test main
 def generate_dummy_data():

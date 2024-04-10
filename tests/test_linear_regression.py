@@ -10,7 +10,7 @@ import os
 import sys
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.renewenergy.linear_regression import split_xy_columns
+from renewenergy.split_xy_columns import split_xy_columns
 
 data = {
         'Feature1': [1, 2, 3],
@@ -40,7 +40,7 @@ def check_expected_x_columns():
 def check_drop_columns():
     dataset_x, dataset_y = split_xy_columns(dataset)
     # Check if dataset_x contains only features and dataset_y contains only the target column
-    assert 'Country Name' not in dataset_x.columns
+    assert ('Country Name' not in dataset_x.columns)
 
 def check_expected_x_columns():
     dataset_x, dataset_y = split_xy_columns(dataset)
