@@ -6,8 +6,8 @@
 :hidden:
 
 example.ipynb
-changelog.md
 contributing.md
 conduct.md
+changelog.md
 autoapi/index
 ```
