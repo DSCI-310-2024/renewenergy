@@ -13,10 +13,11 @@ If you are reporting a bug, please include:
 * Any details about your local setup that might be helpful in troubleshooting.
 * Detailed steps to reproduce the bug.
 
+Before reporting a bug, please browse GitHub issues for any similar issues to avoid duplicating issues. Please report new bugs using the GitHub issues by creating a new issue for the bug.
+
 ### Fix Bugs
 
-Look through the GitHub issues for bugs. Anything tagged with "bug" and "help
-wanted" is open to whoever wants to implement it.
+Look through the GitHub issues for bugs. Anything tagged with "bug" and "help wanted" is open to whoever wants to implement it. Please create a new fork to implement any changes and submit a pull request when the changes are complete and working to be reviewed by the team.
 
 ### Implement Features
 
@@ -25,13 +26,11 @@ and "help wanted" is open to whoever wants to implement it.
 
 ### Write Documentation
 
-You can never have enough documentation! Please feel free to contribute to any
-part of the documentation, such as the official docs, docstrings, or even
-on the web in blog posts, articles, and such.
+You can never have enough documentation! Please feel free to contribute to any part of the documentation, such as the official docs, docstrings, or even on the web in blog posts, articles, and such.
 
 ### Submit Feedback
 
-If you are proposing a feature:
+If you are proposing a new feature:
 
 * Explain in detail how it would work.
 * Keep the scope as narrow as possible, to make it easier to implement.
@@ -69,5 +68,4 @@ Before you submit a pull request, check that it meets these guidelines:
 
 ## Code of Conduct
 
-Please note that the `renewenergy` project is released with a
-Code of Conduct. By contributing to this project you agree to abide by its terms.
+Please note that the `renewenergy` project is released with a Code of Conduct. By contributing to this project you agree to abide by its terms.
