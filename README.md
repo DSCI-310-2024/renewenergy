@@ -2,7 +2,8 @@
 
 A great package to run aanalysis to help predict the renewable energy output of a country.
 
-[![Documentation Status](https://readthedocs.org/projects/renewenergypy/badge/?version=latest)](https://renewenergypy.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/pyrenewenergy/badge/?version=latest)](https://pyrenewenergy.readthedocs.io/en/latest/?badge=latest)
+      
 
 ## Installation
 
