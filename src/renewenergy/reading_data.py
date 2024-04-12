@@ -57,7 +57,8 @@ def reading_data(url, data_file, data_path, file_name):
         
     path = pathlib.Path(data_path+"/"+file_name)
     if os.path.exists(path):
-        raise ValueError("The filename already exists.")
+        # raise ValueError("The filename already exists.")
+        return data.to_csv(data_path+"/"+file_name)  
     else: 
         return data.to_csv(data_path+"/"+file_name)  
        
