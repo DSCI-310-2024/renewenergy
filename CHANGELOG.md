@@ -2,6 +2,29 @@
 
 
 
+## v0.1.1 (2024-04-12)
+
+### Fix
+
+* fix: updated the usage documentation ([`34e26fd`](https://github.com/DSCI-310-2024/renewenergy/commit/34e26fd6eaac9509ce4fcfd7f7d2cb800b442d60))
+
+* fix: added code coverage badge ([`4a71e9a`](https://github.com/DSCI-310-2024/renewenergy/commit/4a71e9a5f29ad205e416febc63964a66cf7c4214))
+
+### Unknown
+
+* Merge pull request #3 from DSCI-310-2024/addingdetails
+
+Addingdetails ([`a197892`](https://github.com/DSCI-310-2024/renewenergy/commit/a19789273bfbf107fe4e2111d77154090db579c4))
+
+* Merge pull request #2 from DSCI-310-2024/addingdetails
+
+added docstrings for all functions ([`d75599e`](https://github.com/DSCI-310-2024/renewenergy/commit/d75599ebe6b79444bd7eb476d878fc3630705182))
+
+* added docstrings for all functions ([`7ac206e`](https://github.com/DSCI-310-2024/renewenergy/commit/7ac206e6ed53687c36dd7ffa856bffbbbaf53e61))
+
+* changed the read the docs file ([`037bb2a`](https://github.com/DSCI-310-2024/renewenergy/commit/037bb2ad709115a0807ae4ce89122afb89191142))
+
+
 ## v0.1.0 (2024-04-09)
 
 ### Feature

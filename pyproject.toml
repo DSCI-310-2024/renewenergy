@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "renewenergy"
-version = "0.1.0"
+version = "0.1.1"
 description = "A great package to run aanalysis to help predict the renewable energy output of a country."
 authors = ["Neha Menon, Caden Chan, Peter Chen, Tak Sripratak"]
 license = "MIT"
