@@ -2,11 +2,9 @@
 
 A great package to run aanalysis to help predict the renewable energy output of a country.
 
-[![Documentation Status](https://readthedocs.org/projects/renewenergy-dsci/badge/?version=latest)](https://renewenergy-dsci.readthedocs.io/en/latest/?badge=latest)
+[![codecov](https://codecov.io/gh/DSCI-310-2024/renewenergy/graph/badge.svg?token=X00ruRbQWc)](https://codecov.io/gh/DSCI-310-2024/renewenergy) ![PyPI](https://img.shields.io/pypi/v/renewenergy?label=pypi%20package)
 
-[![codecov](https://codecov.io/gh/DSCI-310-2024/renewenergy/graph/badge.svg?token=X00ruRbQWc)](https://codecov.io/gh/DSCI-310-2024/renewenergy)
 
-![PyPI](https://img.shields.io/pypi/v/renewenergy?label=pypi%20package)
 
 ## Installation
 
