@@ -15,7 +15,6 @@ $ pip install renewenergy
 
 ## Usage
 ```
-
 from renewenergy.clean_data import clean_data
 from renewenergy.create_scatter_plots import create_scatter_plots
 from renewenergy.reading_data import reading_data
