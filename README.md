@@ -30,7 +30,7 @@ from matplotlib import pyplot as plt
 
 ## Contributing
 
-Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+Interested in contributing? Check out the [contribution guidelines](https://github.com/DSCI-310-2024/renewenergy/blob/main/CONTRIBUTING.md). Please note that this project is released with a [Code of Conduct](https://github.com/DSCI-310-2024/renewenergy/blob/main/CONDUCT.md). By contributing to this project, you agree to abide by its terms.
 
 ## License
 
